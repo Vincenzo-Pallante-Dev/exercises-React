@@ -1,4 +1,0 @@
-Conditional Rendering 02
-
-Modify the `Welcome` component so that the `Age` component is rendered only if the `age` prop is present.
-Modifica il componente "Benvenuto" in modo che il componente "Age" venga visualizzato solo se è presente la prop "age".
