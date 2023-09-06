@@ -5,7 +5,7 @@ export class Welcome extends React.Component {
   render() {
     return (
       <div>
-        <Age age={28} />
+        <Age age={8} />
       </div>
     );
   }
