@@ -1,5 +1,0 @@
-Conditional Rendering 03
-
-Modify the `Welcome` component so that the `Age` component is rendered only if the `age` prop is greater than `18` and less than `65`.
-Modifica il componente "Benvenuto" in modo che il componente "Age" venga visualizzato solo se la prop "age" è maggiore di "18"
- e inferiore a "65".
