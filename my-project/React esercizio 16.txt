@@ -1,0 +1,3 @@
+What happens if no `name` prop is passed to the `Welcome` component? Can you set a default value for the `name` prop?
+
+Cosa succede se nessuna prop `name` viene passata al componente `Welcome`? Puoi impostare un valore predefinito per la prop `name`?
