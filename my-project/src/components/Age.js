@@ -2,6 +2,6 @@ import React from "react";
 
 export class Age extends React.Component {
   render() {
-    return <>La tua eta è 28</>;
+    return <>La tua eta è {this.props.age}</>;
   }
 }
