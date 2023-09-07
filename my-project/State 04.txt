@@ -1,0 +1,5 @@
+State 04
+
+Extract the `h1` tag showing the `count` state variable into a new component called `CounterDisplay` and render it within the `Counter` component, passing it the `count` state variable as a prop.
+Estrai il tag "h1" che mostra la variabile di stato "count" in un nuovo componente chiamato "CounterDisplay" 
+ed esegui il rendering all'interno del componente "Counter", passandogli la variabile di stato "count" come prop.
