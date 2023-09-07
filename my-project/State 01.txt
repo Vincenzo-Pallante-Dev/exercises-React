@@ -1,6 +1,0 @@
-State 01
-
-Create a `Counter` class component with an internal state containing a `count` property, initialized to `0`. The `Counter` component should render the `count` property within an `h1` tag, and the `count` property should be incremented by `1` every second;
-Crea un componente della classe "Counter" con uno stato interno contenente una proprietà "count", inizializzata su "0".
- Il componente "Counter" dovrebbe eseguire il rendering della proprietà "count" all'interno di un tag "h1" 
- e la proprietà "count" dovrebbe essere incrementata di "1" ogni secondo;
