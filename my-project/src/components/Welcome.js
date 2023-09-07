@@ -3,10 +3,6 @@ import { Age } from "./Age";
 
 export class Welcome extends React.Component {
   render() {
-    return (
-      <div>
-        <Age age={28} />
-      </div>
-    );
+    return <div>{this.props.age > 18 && this.props.age < 65 && <Age />}</div>;
   }
 }
