@@ -21,9 +21,3 @@ export class Counter extends React.Component {
     return <h1>Count: {this.state.count}</h1>;
   }
 }
-
-Counter.defaultProps = {
-  init: 2,
-  increment: 2,
-  time: 2000,
-};
