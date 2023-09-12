@@ -1,3 +1,0 @@
-Events 01
-Crea un componente della classe ClickCounter che incrementa un contatore ogni volta che un utente fa clic su un pulsante. 
-Visualizza sia il valore corrente del contatore che il pulsante all'interno del componente ClickCounter.
