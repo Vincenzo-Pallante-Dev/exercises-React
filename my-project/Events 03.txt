@@ -1,5 +1,0 @@
-Events 03
-Crea un componente ClickTracker che visualizzi tre pulsanti.
-Implementa un singolo gestore eventi per tutti e tre i pulsanti e tieni traccia di quale pulsante è stato premuto per ultimo.
-Mostra l'ultimo pulsante premuto in un tag h1 all'interno del componente ClickTracker. 
-Suggerimento: puoi utilizzare l'oggetto evento per accedere alla proprietà di destinazione dell'evento.
