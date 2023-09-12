@@ -1,5 +1,0 @@
-Component Lifecycle 01
-
-Modify the `Counter` component so that the interval is initialized within the `componentDidMount` life cycle method instead of the constructor. Is the constructor still required?
-Modifica il componente "Counter" in modo che l'intervallo venga inizializzato all'interno del metodo del ciclo di vita "componentDidMount" 
-anziché nel costruttore. Il costruttore è ancora necessario? No non è più necessario
