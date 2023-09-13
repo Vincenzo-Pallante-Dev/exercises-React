@@ -1,10 +1,10 @@
 import React from "react";
-import { Login } from "./components/Login";
+import { UncontrolledLogin } from "./components/UncontrolledLogin";
 
 export class App extends React.Component {
   render() {
     return (
-      <Login
+      <UncontrolledLogin
         onLogin={() => {
           alert("Ciao Francesco!!");
         }}
