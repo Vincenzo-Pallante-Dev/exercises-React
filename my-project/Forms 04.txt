@@ -1,0 +1,4 @@
+Forms 04
+
+Add a "reset" `button` to the `Login` component that clears the content of all three inputs when clicked.
+Aggiungi un "pulsante" "reset" al componente "Login" che cancella il contenuto di tutti e tre gli input quando viene cliccato.

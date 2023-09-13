@@ -14,6 +14,13 @@ export class Login extends React.Component {
     });
   };
 
+  handleClear = () => {
+    this.setState({
+      username: "",
+      password: "",
+    });
+  };
+
   render() {
     return (
       <div>
@@ -41,6 +48,7 @@ export class Login extends React.Component {
         >
           Login
         </button>
+        <button onClick={this.handleClear}>Clear</button>
       </div>
     );
   }
