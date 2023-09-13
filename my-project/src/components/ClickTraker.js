@@ -6,10 +6,8 @@ export class ClickTraker extends React.Component {
   };
 
   handleCheckButton = (event) => {
-    this.setState((state) => {
-      return {
-        lastButton: (state.lastButton = event.target.name),
-      };
+    this.setState({
+      lastButton: event.target.name,
     });
   };
   render() {
