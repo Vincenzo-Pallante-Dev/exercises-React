@@ -24,11 +24,7 @@ export class UncontrolledLogin extends React.Component {
       <form onSubmit={this.handleSubmit} ref={this._formRef}>
         <input name="username" placeholder="Username"></input>
         <input name="password" type="password" placeholder="Password"></input>
-        <button
-          type="submit"
-          //   disabled={}
-          onClick={this.props.onLogin}
-        >
+        <button type="submit" onClick={this.props.onLogin}>
           Login
         </button>
         <button onClick={this.handleClear}>Clear</button>
