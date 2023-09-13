@@ -1,6 +1,0 @@
-Forms 01
-
-Create an `InteractiveWelcome` component that renders an `input` tag and the `Welcome` component. Pass the current content of the `input` tag to the `name` prop of the `Welcome` component. The `input` tag should be a controlled component.
-Crea un componente "InteractiveWelcome" che restituisca un tag "input" e il componente "Welcome".
- Passa il contenuto corrente del tag "input" alla prop "name" del componente "Welcome".
-  Il tag "input" dovrebbe essere un componente controllato.
