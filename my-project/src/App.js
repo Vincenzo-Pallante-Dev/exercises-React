@@ -6,7 +6,7 @@ export class App extends React.Component {
     return (
       <UncontrolledLogin
         onLogin={() => {
-          alert("Ciao Francesco!!");
+          alert("Vuoi inviare i tuoi dati?");
         }}
       />
     );
