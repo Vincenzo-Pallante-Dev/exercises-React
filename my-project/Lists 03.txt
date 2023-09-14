@@ -1,0 +1,7 @@
+Lists 03
+
+Create a `TodoList` component that renders a `ul` tag with a `li` tag for each item contained in the `items` _state variable_. The `items` state variable should be an array of strings. The `TodoList` component should also contain an `input` tag and a `button`. When the `button` is clicked, the event handler should add the value of the `input` tag to the `items` array.
+Crea un componente `TodoList` che restituisca un tag `ul` con un tag `li` per ogni elemento contenuto nella _variabile_stato_ `items`.
+La variabile di stato "items" dovrebbe essere un array di stringhe. 
+Il componente "TodoList" dovrebbe contenere anche un tag "input" e un "pulsante".
+ Quando si fa clic sul pulsante, il gestore eventi dovrebbe aggiungere il valore del tag "input" all'array "items".
