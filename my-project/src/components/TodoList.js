@@ -27,6 +27,12 @@ export class TodoLIst extends React.Component {
     });
   };
 
+  handleResetState = () => {
+    this.setState({
+      todos: [],
+    });
+  };
+
   render() {
     return (
       <div>
@@ -38,6 +44,7 @@ export class TodoLIst extends React.Component {
           onChange={this.handleInput}
         ></input>
         <button onClick={this.handleAddTodo}>Aggiungi compito</button>
+        <button onClick={this.handleResetState}>Reset</button>
         <ul>
           {this.state.todos.map((todo, index) => (
             <li key={todo + index}>{todo}</li>
