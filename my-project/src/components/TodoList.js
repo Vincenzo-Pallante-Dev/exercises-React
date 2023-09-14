@@ -33,6 +33,16 @@ export class TodoLIst extends React.Component {
     });
   };
 
+  handleRemove = (event) => {
+    const index = event.target.closest("li").index;
+    const todos = this.state.todos.slice();
+    todos.splice(index, 1);
+
+    this.setState({
+      todos: todos,
+    });
+  };
+
   render() {
     return (
       <div>
@@ -47,7 +57,9 @@ export class TodoLIst extends React.Component {
         <button onClick={this.handleResetState}>Reset</button>
         <ul>
           {this.state.todos.map((todo, index) => (
-            <li key={todo + index}>{todo}</li>
+            <li key={todo + index}>
+              {todo} <button onClick={this.handleRemove}>Rimuovi scelta</button>
+            </li>
           ))}
         </ul>
       </div>
