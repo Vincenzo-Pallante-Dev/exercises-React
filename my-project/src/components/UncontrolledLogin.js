@@ -14,6 +14,10 @@ export class UncontrolledLogin extends React.Component {
     });
   };
 
+  componentDidMount() {
+    this.username.focus();
+  }
+
   handleClear = () => {
     this._formRef.current.elements.username.value = "";
     this._formRef.current.elements.password.value = "";
@@ -22,7 +26,13 @@ export class UncontrolledLogin extends React.Component {
   render() {
     return (
       <form onSubmit={this.handleSubmit} ref={this._formRef}>
-        <input name="username" placeholder="Username"></input>
+        <input
+          name="username"
+          placeholder="Username"
+          ref={(input) => {
+            this.username = input;
+          }}
+        ></input>
         <input name="password" type="password" placeholder="Password"></input>
         <button type="submit" onClick={this.props.onLogin}>
           Login
