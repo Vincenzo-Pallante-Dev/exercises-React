@@ -1,0 +1,4 @@
+Lists 05
+
+Modify the `TodoList` by adding a "reset" `button` that clears the `items` array when clicked.
+Modifica la "TodoList" aggiungendo un "pulsante" "reset" che cancella l'array "items" quando viene cliccato.
