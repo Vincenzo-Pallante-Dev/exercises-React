@@ -1,14 +1,8 @@
 import React from "react";
-import { UncontrolledLogin } from "./components/UncontrolledLogin";
+import { TodoLIst } from "./components/TodoList";
 
 export class App extends React.Component {
   render() {
-    return (
-      <UncontrolledLogin
-        onLogin={() => {
-          alert("Vuoi inviare i tuoi dati?");
-        }}
-      />
-    );
+    return <TodoLIst />;
   }
 }
