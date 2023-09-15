@@ -33,13 +33,14 @@ export class TodoLIst extends React.Component {
     });
   };
 
-  handleRemove = (event) => {
-    const index = event.target.closest("li").index;
-    const todos = this.state.todos.slice();
-    todos.splice(index, 1);
+  handleRemove = () => {
+    // const indexConst = event.target.closest("div").index;
+    const indexConst2 = this.state.todos.indexOf("div");
+    const sliceConst = this.state.todos.slice();
+    sliceConst.splice(indexConst2, 1);
 
     this.setState({
-      todos: todos,
+      todos: sliceConst,
     });
   };
 
@@ -55,27 +56,8 @@ export class TodoLIst extends React.Component {
         ></input>
         <button onClick={this.handleAddTodo}>Aggiungi compito</button>
         <button onClick={this.handleResetState}>Reset</button>
-        <renderTodos />
-        {/* <ul>
-          {this.state.todos.map((todo, index) => (
-            <li key={todo + index}>
-              {todo} <button onClick={this.handleRemove}>Rimuovi scelta</button>
-            </li>
-          ))}
-        </ul> */}
+        <div>{this.props.render(this.state.todos, this.handleRemove)}</div>
       </div>
     );
   }
-}
-
-export default function renderTodos(handleRemove) {
-  return (
-    <ul>
-      {this.state.todos.map((todo, index) => (
-        <li key={todo + index}>
-          {todo} <button onClick={handleRemove(index)}>Rimuovi scelta</button>
-        </li>
-      ))}
-    </ul>
-  );
 }
