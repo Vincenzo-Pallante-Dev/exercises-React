@@ -55,14 +55,27 @@ export class TodoLIst extends React.Component {
         ></input>
         <button onClick={this.handleAddTodo}>Aggiungi compito</button>
         <button onClick={this.handleResetState}>Reset</button>
-        <ul>
+        <renderTodos />
+        {/* <ul>
           {this.state.todos.map((todo, index) => (
             <li key={todo + index}>
               {todo} <button onClick={this.handleRemove}>Rimuovi scelta</button>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     );
   }
+}
+
+export default function renderTodos(handleRemove) {
+  return (
+    <ul>
+      {this.state.todos.map((todo, index) => (
+        <li key={todo + index}>
+          {todo} <button onClick={handleRemove(index)}>Rimuovi scelta</button>
+        </li>
+      ))}
+    </ul>
+  );
 }
