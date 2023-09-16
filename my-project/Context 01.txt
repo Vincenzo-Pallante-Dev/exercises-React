@@ -1,4 +1,0 @@
-Create a `LanguageContext` and wrap a `DisplayLanguage` component within its provider. Add a `select` tag to the component containing the `DisplayLanguage` component that allows the user to select the language, and pass it as a value to the Provider.
-Crea un `LanguageContext` e racchiudi un componente `DisplayLanguage` nel suo provider.
- Aggiungi un tag "select" al componente contenente il componente "DisplayLanguage"
-  che consente all'utente di selezionare la lingua e passarla come valore al provider.
