@@ -1,5 +1,0 @@
-Modify the `TodoList` component so that, instead of rendering the `items` array within the `ul` tag, it calls the function passed to its `render` prop, passing it the `items` array as a parameter, as well as the function required to delete the item. Pass a render prop to the `TodoList` component to correctly render and interact with the `items` array.
-Modifica il componente `TodoList` in modo che, invece di visualizzare l'array `items` all'interno del tag `ul`,
- richiami la funzione passata alla sua prop `render`, passandogli l'array `items` come parametro, 
- oltre a la funzione richiesta per eliminare l'elemento.
-  Passa una prop di rendering al componente "TodoList" per eseguire il rendering e interagire correttamente con l'array "items".
