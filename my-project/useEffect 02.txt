@@ -1,0 +1,4 @@
+Rewrite the `Counter` component from State 1 as a function component and add a side effect that initializes the interval as soon as the component renders, and clears it when the component unmounts.
+Riscrivi il componente "Contatore" dallo Stato 1 come componente funzione
+ e aggiungi un effetto collaterale che inizializza l'intervallo 
+ non appena il componente esegue il rendering e lo cancella quando il componente viene smontato.
