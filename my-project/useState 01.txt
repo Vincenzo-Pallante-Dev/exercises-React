@@ -1,3 +1,0 @@
-Rewrite the `ClickCounter` component from Events 01 as a function component, and use the `useState` hook to track the state of the counter.
-Riscrivi il componente "ClickCounter" dagli eventi 01 come componente di funzione
- e utilizza l'hook "useState" per tenere traccia dello stato del contatore.

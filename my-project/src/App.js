@@ -1,8 +1,8 @@
 import React from "react";
-import { ClickCounter } from "./components/ClickCounter";
+import { LoginForm } from "./components/Login";
 
 export class App extends React.Component {
   render() {
-    return <ClickCounter />;
+    return <LoginForm />;
   }
 }
