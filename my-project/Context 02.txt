@@ -1,3 +1,0 @@
-Consume the `LanguageContext` within the `DisplayLanguage` component by using the context consumer, and show the selected language in an `h1` tag.
-Utilizza "LanguageContext" all'interno del componente "DisplayLanguage" 
-utilizzando il consumer del contesto e mostra la lingua selezionata in un tag "h1".
