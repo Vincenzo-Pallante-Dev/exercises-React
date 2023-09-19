@@ -1,0 +1,4 @@
+Create a GithubUser component that fetches the data of the username passed as a prop, and renders some of the data within a `div` tag. The API to query is `https://api.github.com/users/${username}`.
+Crea un componente GithubUser che recupera i dati del nome utente passato come prop
+ ed esegue il rendering di alcuni dati all'interno di un tag "div".
+  L'API su cui eseguire la query è "https://api.github.com/users/${username}".
