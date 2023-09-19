@@ -1,8 +1,8 @@
 import React from "react";
-import { GithubUser } from "./components/GithubUser";
+import { GithubUserList } from "./components/GithubUserList";
 
 export class App extends React.Component {
   render() {
-    return <GithubUser />;
+    return <GithubUserList />;
   }
 }
