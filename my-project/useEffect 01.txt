@@ -1,5 +1,0 @@
-Add a side effect to the `ClickCounter` component from useState 01 that calls a `onCounterChange` function with the current value of the counter every time value of the counter changes. The function should be received as a prop.
-Aggiungi un effetto collaterale al componente "ClickCounter" da useState 01
- che chiama una funzione "onCounterChange"
-  con il valore corrente del contatore ogni volta che il valore del contatore cambia. 
-  La funzione dovrebbe essere ricevuta come un sostegno.
