@@ -1,3 +1,0 @@
-Extract the logic to fetch a Github user's data from the `GithubUser` component from useEffect 03 into a custom hook called `useGithubUser`.
-Estrai la logica per recuperare i dati di un utente Github dal componente "GithubUser" da useEffect 03 
-in un hook personalizzato chiamato "useGithubUser".
