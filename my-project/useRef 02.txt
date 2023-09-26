@@ -1,7 +1,0 @@
-Create a `CarDetails` uncontrolled form that uses the HTML Form API to allow the user to insert details about a car, such as the `model`, the `year` and the `color`. Allow the form to receive a `initialData` prop that contains the default values of each input, and reset the form every time the `initialData` value changes.
-Crea un modulo non controllato "CarDetails" che utilizza l'API del modulo HTML
- per consentire all'utente di inserire dettagli su un'auto, 
- come il "modello", l'"anno" e il "colore". 
- Consenti al modulo di ricevere una prop "initialData"
-  che contiene i valori predefiniti di ciascun input
-   e reimposta il modulo ogni volta che il valore "initialData" cambia.
