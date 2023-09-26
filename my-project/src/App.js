@@ -1,7 +1,11 @@
-import React from "react";
+import { CarDetails } from "./components/CarDetails";
 
-export class App extends React.Component {
-  render() {
-    return <></>;
-  }
+const initialData = {
+  model: "Clio",
+  year: "2000",
+  color: "Green",
+};
+
+export function App() {
+  return <CarDetails initialData={initialData} />;
 }
