@@ -1,4 +1,0 @@
-Modify the `useGithubUser` hook to return the function to fetch the data of a Github user, along with the data of the user and the error and loading states.
-Modifica l'hook `useGithubUser` per restituire la funzione
- per recuperare i dati di un utente Github, 
- insieme ai dati dell'utente e agli stati di errore e caricamento.

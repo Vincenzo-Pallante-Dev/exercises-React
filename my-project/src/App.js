@@ -1,5 +1,11 @@
-import { GithubUser } from "./components/GithubUser";
+import { CarDetails } from "./components/CarDetails";
+
+const initialData = {
+  model: "Clio",
+  year: "2000",
+  color: "Green",
+};
 
 export function App() {
-  return <GithubUser />;
+  return <CarDetails initialData={initialData} />;
 }
