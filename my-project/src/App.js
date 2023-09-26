@@ -1,4 +1,4 @@
-import { FilteredList } from "./FilteredList";
+import { FilteredList } from "./components/FilteredList";
 
 const items = [
   { id: 1, nome: "Vincenzo", età: "28" },
