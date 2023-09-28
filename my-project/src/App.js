@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { ClickCounter } from "./components/ClickCounter";
+import { ShowGithubUser } from "./components/ShowGithubUser";
 
 export function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<ClickCounter />} />
+        <Route path="users/:username" element={<ShowGithubUser />} />
       </Routes>
     </div>
   );
