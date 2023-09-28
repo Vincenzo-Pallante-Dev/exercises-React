@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { ShowGithubUser } from "./components/ShowGithubUser";
+import { Links } from "./components/Links";
 
 export function App() {
   return (
     <div>
       <Routes>
-        <Route path="users/:username" element={<ShowGithubUser />} />
+        <Route path="/" element={<Links />} />
       </Routes>
     </div>
   );
