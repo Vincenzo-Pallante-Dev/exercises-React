@@ -2,4 +2,4 @@ Add a new Route to the `users/:username` path that renders a `ShowGithubUser` co
 Aggiungi una nuova route al percorso "users/:username" 
 che esegue il rendering di un componente "ShowGithubUser"
  che riceve "username" come parametro di percorso
-  ed esegue il rendering del componente "GithubUser" da useEffect 03 passandogli il nome utente ricevuto.
+  ed esegue il rendering del componente "GithubUser" da useEffect 03 passandogli il nome utente ricevuto
