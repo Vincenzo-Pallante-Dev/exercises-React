@@ -1,7 +1,12 @@
-import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { ShowGithubUser } from "./components/ShowGithubUser";
 
-export class App extends React.Component {
-  render() {
-    return <></>;
-  }
+export function App() {
+  return (
+    <div>
+      <Routes>
+        <Route path="users/:username" element={<ShowGithubUser />} />
+      </Routes>
+    </div>
+  );
 }
