@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
-export function ShowGithubUser({ initialNames = ["Marco", "Giovanni", "Luca"] }) {
+export function ShowGithubUser({
+  initialNames = ["Marco", "Giovanni", "Luca"],
+}) {
   const [usernames, SetUsernames] = useState(initialNames);
 
   function handleAddName(event) {
@@ -17,6 +19,9 @@ export function ShowGithubUser({ initialNames = ["Marco", "Giovanni", "Luca"] })
 
   return (
     <div>
+      <hr />
+      <Outlet />
+      <hr />
       <ul>
         {usernames.map((username, index) => (
           <li key={username + index}>
