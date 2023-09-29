@@ -1,16 +1,17 @@
-import { Link, Route, Routes } from "react-router-dom";
-import { Links } from "./components/Links";
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import { ShowGithubUser } from "./components/ShowGithubUser";
 
 export function App() {
   return (
     <div>
+      <Link to="/users">Go ShowGithubUser Component</Link>
+      <hr/>
+      <Link to="/">Go Home</Link>
       <Routes>
-        <Route path="links" element={<Links />} />
-        <Route path="*" element={<div>
-          <p>Not found</p>
-          <Link to="links">Go page link</Link>
-        </div>}/>
+        <Route path="/users" element={<ShowGithubUser />} />
       </Routes>
     </div>
   );
 }
+
