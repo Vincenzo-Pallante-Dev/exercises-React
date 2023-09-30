@@ -1,2 +1,0 @@
-Add an index route to the `GithubUserList` route that shows the "Add a user and select it" message.
-Aggiungi un percorso indice al percorso `GithubUserList` che mostra il messaggio "Aggiungi un utente e selezionalo".
