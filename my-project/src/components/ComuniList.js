@@ -14,16 +14,13 @@ export function ComuniList() {
     return <p>Loading...</p>;
   }
 
-  if (!Array.isArray(data)) {
-    return <p>Data is not an array</p>;
-  }
-
   return (
     <div>
       <Link to="/">Go Home</Link>
-      {data.map((d, i) => {
-        return <li key={i}>{d}</li>;
-      })}
+      {data &&
+        data.map((d, i) => {
+          return <li key={i}>{d}</li>;
+        })}
     </div>
   );
 }
