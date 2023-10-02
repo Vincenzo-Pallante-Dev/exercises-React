@@ -1,1 +1,2 @@
 Modify the `useGithubUser` hook so that it returns a function to manually refetch the data when invoked.
+component userList, che tramite swr, lista comuni da api
