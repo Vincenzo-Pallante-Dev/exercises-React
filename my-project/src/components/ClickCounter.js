@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export function ClickCounter({ initialValue = 0 }) {
   const [count, setCount] = useState(initialValue);
@@ -11,6 +12,8 @@ export function ClickCounter({ initialValue = 0 }) {
     <div>
       <h1>Count: {count}</h1>
       <button onClick={handleCounterIncrement}>Increment</button>
+      <hr />
+      <Link to="/">Go Home</Link>
     </div>
   );
 }
