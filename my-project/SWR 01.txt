@@ -1,2 +1,0 @@
-Modify the `useGithubUser` custom hook from Custom Hooks 03 to use the `useSWR` hook to fetch the data of a Github user.
-Modifica l'hook personalizzato `useGithubUser` da Custom Hooks 03 per utilizzare l'hook `useSWR` per recuperare i dati di un utente Github.
