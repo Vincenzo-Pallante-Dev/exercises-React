@@ -3,6 +3,10 @@ import { useGithubUser } from "./useGithubUser";
 export function GithubUser(username) {
   const { data, error, isLoading } = useGithubUser((username = ""));
 
+  if (!username) {
+    return <h3>USERNAME NON SPECIFICATO (NULL)</h3>;
+  }
+
   return (
     <div>
       {isLoading && <h3>Loading</h3>}
